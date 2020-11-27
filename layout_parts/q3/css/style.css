@@ -1,5 +1,35 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q3__contents {
+  width: 100%;
+  border: solid 1px #dedede;
+  table-layout: fixed;
+}
+/*cssで複数のセレクターを対象にするにはコンマで区切る*/
+.q3__contents th,.q3__contents td {
+  padding: 10px;
+  border: solid 1px #dedede;
+  vertical-align: middle;
+}
 
+.q3__contents th {
+  background-color: #2244aa;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.q3__contents td {
+  line-height: 22px;
+  text-align: center;
+}
+/*:nth-childなどの疑似要素を使う場合cssの書き方は順番に気をつけ半角スペースを空け書き込んでいく今回の場合は偶数で適用させていく流れ。*/
+.q3__contents tbody tr:nth-child(2n) {
+  background-color: #ecf1f2;
+}
+
+.q3__contents tbody tr:last-child {
+  border-top: dashed 2px #000000
+}
 /* 回答はここに書いてね */
