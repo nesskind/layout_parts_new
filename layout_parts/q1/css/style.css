@@ -9,13 +9,12 @@
 
 .q1__content {
   width: 900px;
-  background-color: #eff3f4;
   margin: 0 auto;
   padding: 20px;
-  box-sizing: border-box;
+  background-color: #eff3f4;
 }
 
-.q1__content__box {
+.q1__contents {
   float: left;
   margin-left: 20px;
   padding: 20px;
@@ -23,15 +22,15 @@
   background-color: #3274ae;
 }
 
-.q1__content .q1__content__box:first-child {
+.q1__contents__box {
+  padding: 20px;
+  border: 10px solid #022336;
+  background-color: #eaf4ff;
+}
+
+.q1__contents:first-child {
   margin-left: 0;
 }
 
-.q1__content__text {
-  padding: 20px;
-  font-size: 16px;
-  line-height: 16px;
-  border: solid 10px #022336;
-  background-color: #eaf4ff;
-}
+
 /* 回答はここに書いてね */

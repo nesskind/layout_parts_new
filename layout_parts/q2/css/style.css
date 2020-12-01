@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box {
+.box content {
   margin-top: 20px;
 }
 
-.q2 {
+.q2__content {
   width: 900px;
   margin: 0 auto;
   padding: 20px;
